@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs")%>
+    <div class="form">
+        <form action="/submit" name = "newBook" method = "post">
+            <input type="text" placeholder="Name of Book" name="bookName" required="required"><br>
+            <input type="number" placeholder="Rating (0-10)" name="rating" required="required" min = "0" max = "10"><br>
+            <textarea type="text" id = "review" placeholder= "Review" name="review" required = "required"></textarea><br>
+            <input type="submit">
+        </form>
+    </div>
+<%- include("partials/footer.ejs") %>

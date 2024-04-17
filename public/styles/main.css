@@ -1,0 +1,102 @@
+html{
+    height: 100vh;
+    background: linear-gradient(#E36414, #9A031E);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+.header svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5F0F40;
+    border: solid 3px black;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.nav-bar button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: #5F0F40;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-bar button:hover{
+    cursor: pointer;
+    background-color: #771351;
+}
+
+hr{
+    border-color: black;
+    border-width: 2px;
+    margin: 0;
+}
+
+.one-book{
+    position: relative;
+    background-color: #5F0F40;
+    margin-top: 10px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+.form{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.form button{
+    background-color: #5F0F40;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+#review{
+    font-size: 2rem;
+    height: 150px;
+    width: 100%;
+    margin-top: 11px;
+}
+
+.one-book img{
+    height: 150px;
+    border: solid 3px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
